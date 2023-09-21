@@ -1,0 +1,91 @@
+body{
+  background-color: #2F2E41;
+  padding: 0;
+  font-family: 'JetBrains Mono', sans-serif;
+  margin: 0 90px 0 90px;
+}
+
+#page {
+  display: flex;
+  flex-direction: column;  
+  min-height: 100vh;     
+}
+
+nav{
+  display: flex;
+  height: 90px;
+  padding: 55px 0 55px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li a:hover{
+  color: #00BFA6;
+  cursor: pointer;
+  font-weight: bold
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 1; 
+}
+
+section{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  color: white;
+  gap: 10px;
+}
+
+section span{
+  color: #00BFA6
+}
+
+section h1{
+  margin-bottom: 40px;
+  font-weight: 700px;
+  font-size: 36px;
+}
+
+section p {
+  color: #C2C2C2;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  gap: 70px;
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+}
+
+footer{
+  font-size: 14px;
+  line-height: 28px;
+  color: #C2C2C2;
+  text-align: center;
+  margin-top: 80px;
+
+}
+
+#look {
+  position: fixed;
+  padding: 20px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+#line{
+  width: 568px;
+  height: 0px;
+  margin: 0 auto 8px;
+  border: 1px solid #00BFA6;
+}
